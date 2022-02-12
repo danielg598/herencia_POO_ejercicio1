@@ -1,0 +1,31 @@
+.botones {
+    display: flex;
+    padding: 30px;
+    background-color: rgb(216, 215, 215);
+}
+
+.botones .btn {
+    align-content: center;
+}
+
+.botones .btn:nth-child(1) {
+    width: 100px;
+    align-items: center;
+}
+
+.botones .btn:nth-child(2) {
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container {
+    width: auto;
+    display: flex;
+}
+
+.container .card {
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
